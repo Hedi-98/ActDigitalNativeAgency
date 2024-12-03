@@ -11,39 +11,39 @@ import ProtfolioDetails from "../Pages/ProtfolioDetails/ProtfolioDetails";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/ActDigitalNativeAgency/",
     element: <Root />,
     children: [
       {
-        path: "/",
+        path: "/ActDigitalNativeAgency/",
         element: <Home />,
       },
       {
-        path: "/all-services",
+        path: "/ActDigitalNativeAgency/all-services",
         element: <AllServices />,
       },
       {
-        path: "/service-details",
+        path: "/ActDigitalNativeAgency/service-details",
         element: <ServiceDetails />,
       },
       {
-        path: "/all-blog",
+        path: "/ActDigitalNativeAgency/all-blog",
         element: <AllBlogs />,
       },
       {
-        path: "/blog-details",
+        path: "/ActDigitalNativeAgency/blog-details",
         element: <BlogDetails />,
       },
       {
-        path: "/contact",
+        path: "/ActDigitalNativeAgency/contact",
         element: <Contact />,
       },
       {
-        path: "/protfolio",
+        path: "/ActDigitalNativeAgency/protfolio",
         element: <Protfolio />,
       },
       {
-        path: "/protfolio-details",
+        path: "/ActDigitalNativeAgency/protfolio-details",
         element: <ProtfolioDetails />,
       },
     ],
