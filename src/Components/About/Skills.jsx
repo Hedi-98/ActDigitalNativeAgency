@@ -21,7 +21,7 @@ const skillsList = [
   {
     id: 3,
     system: "Adresse",
-    contact: "Tunisie et France",
+    contact: "Paris, France",
   },
   {
     id: 4,

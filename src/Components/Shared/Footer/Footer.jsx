@@ -67,18 +67,18 @@ const Footer = () => {
             <p className="white">
               Copyright © 2023 {" "}
               <Link to={"/"} className="base">
-                Matias.
+                ActDNA
               </Link>{" "}
               All rights reserved.
             </p>
-            <ul className="terms">
-              <li>
-                <a href="#0"> Terms & Condition </a>
-              </li>
-              <li>
-                <a href="#0"> Privacy Policy </a>
-              </li>
-            </ul>
+            {/*<ul className="terms">*/}
+            {/*  <li>*/}
+            {/*    <a href="#0"> Terms & Condition </a>*/}
+            {/*  </li>*/}
+            {/*  <li>*/}
+            {/*    <a href="#0"> Privacy Policy </a>*/}
+            {/*  </li>*/}
+            {/*</ul>*/}
             <a href="#about" className="toparrow">
               <i>
                 <ArrowUpShort />

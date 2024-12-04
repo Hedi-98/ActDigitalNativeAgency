@@ -46,7 +46,7 @@ const Drawer = ({ isSidebarActive, setIsSidebarActive }) => {
         </i>
       </div>
       <div className="sub__contact__wrapper d-grid">
-        <Link to={""} className="side-logo">
+        <Link to={""} className="side-logo text-center">
           <img src={favicon} alt="img" />
         </Link>
         <p>

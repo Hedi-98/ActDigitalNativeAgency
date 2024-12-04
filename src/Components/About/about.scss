@@ -23,7 +23,7 @@
                 }
                 &.active{
                     button{
-                        background: #651936;
+                        background: #091272;
                         color: var(--white);
                     }
                 }
@@ -70,12 +70,15 @@
     @include mixins.breakpoint(max-lg){
         p{
             font-size: 28px;
+            span{
+                font-size: 30px;
+            }
         }
     }
     @include mixins.breakpoint(max-md){
         margin: 0 auto 30px;
         img{
-            width: 30px;
+            width: 70px;
         }
         p{
             font-size: 20px;
@@ -83,7 +86,7 @@
     }
     @include mixins.breakpoint(max-xs){
         img{
-            width: 30px;
+            width: 70px;
         }
         p{
             font-size: 16px;
@@ -110,12 +113,18 @@
     img{
         width: 100%;
     }
+    @include mixins.breakpoint(max-lg){
+        width: 100%;
+    }
 }
 .about__onecontent{
     padding-left: 40px;
     h2{
         font-size: 42px;
         margin-bottom: 20px;
+        @include mixins.breakpoint(max-lg){
+            text-align: center; /* Center align the text */
+        }
     }
     .about__contactwrap{
         flex-wrap: wrap;
@@ -154,6 +163,7 @@
     @include mixins.breakpoint(max-xxl){
         padding-left: 0;
     }
+
 }
 .tabcontents {
     position: relative;
@@ -280,6 +290,12 @@
                 font-size: 18px;
             }
        } 
+    }
+    @include mixins.breakpoint(max-lg){
+        flex-direction: column; /* Stack items vertically */
+        span{
+            text-align: center; /* Center align the text */
+        }
     }
 }
 //exprience

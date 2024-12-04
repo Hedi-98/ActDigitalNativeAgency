@@ -96,7 +96,7 @@ const Banner = () => {
       <div className="banner__rightinfo">
         <div className="right__infoscroll">
           <Link to={""} className="scroll">
-            Follow Me
+            Contact Me
           </Link>
           <Link to={""} className="scroll__bar">
             <img src={scrollDown} alt="img" />
