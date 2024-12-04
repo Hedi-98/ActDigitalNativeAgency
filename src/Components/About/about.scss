@@ -55,9 +55,11 @@
 .personal__head{
     margin: 0 auto 60px;
     p{
-        font-size: 42px;
-        font-weight: 500;
-        color: var(--base);
+        span{
+            font-size: 42px;
+            font-weight: 500;
+            color: var(--base);
+        }
     }
     img{
         animation: cir360 10s linear infinite;
@@ -104,7 +106,7 @@
     }
 }
 .about__onethumb{
-    width: 100%;
+    width: 85%;
     img{
         width: 100%;
     }

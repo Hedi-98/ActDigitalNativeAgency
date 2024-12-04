@@ -138,15 +138,15 @@ const Header = () => {
             })}
           </ul>
           <div className="menu__components d-flex align-items-center">
-            <Link
-              to="/contact"
-              className="d-flex fw-500 cmn--btn align-items-center gap-2"
-            >
-              <span className="get__text">Let's Talk</span>
-              <span>
-                <ArrowRight className="fz-20" />
-              </span>
-            </Link>
+            {/*<Link*/}
+            {/*  to="/contact"*/}
+            {/*  className="d-flex fw-500 cmn--btn align-items-center gap-2"*/}
+            {/*>*/}
+            {/*  <span className="get__text">Let's Talk</span>*/}
+            {/*  <span>*/}
+            {/*    <ArrowRight className="fz-20" />*/}
+            {/*  </span>*/}
+            {/*</Link>*/}
             <div
               onClick={handleHeaderToggle}
               className={`header-bar d-lg-none ${menuActive ? "active" : ""}`}

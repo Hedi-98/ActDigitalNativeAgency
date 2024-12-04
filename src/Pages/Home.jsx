@@ -30,13 +30,13 @@ const Home = () => {
       <About />
       {/*<MarqueeWapper direction="right" images={images2} />*/}
       {/*<Awards />*/}
-      <Projects />
+      {/*<Projects />*/}
       {/*<Metting />*/}
-      <Services isHeading={true} />
-      <WorkeProcess />
+      {/*<Services isHeading={true} />*/}
+      {/*<WorkeProcess />*/}
       {/*<Testimonial />*/}
       {/*<Blogs />*/}
-      <ScrollRestoration/>
+      {/*<ScrollRestoration/>*/}
     </>
   );
 };

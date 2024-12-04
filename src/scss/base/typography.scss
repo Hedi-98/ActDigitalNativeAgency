@@ -14,7 +14,7 @@ h4,
 h5,
 h6 {
   color: var(--white);
-  text-transform: capitalize;
+  //text-transform: capitalize;
   @include mixins.bodyfont;
 }
 
@@ -70,7 +70,7 @@ ul {
 }
 a {
   text-decoration: none;
-  text-transform: capitalize;
+  //text-transform: capitalize;
   margin: 0;
   color: var(--title);
   @include mixins.bodyfont;
@@ -183,6 +183,7 @@ p {
   }
 }
 .fz-18 {
+  text-align: justify;
   font-size: 18px;
   @include mixins.breakpoint(max-md) {
     font-size: 16px;

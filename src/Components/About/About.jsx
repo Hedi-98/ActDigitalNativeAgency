@@ -10,14 +10,14 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const tabList = [
+  // {
+  //   id: 1,
+  //   name: "A propos",
+  //   value: "about",
+  // },
   {
     id: 1,
-    name: "A propos",
-    value: "about",
-  },
-  {
-    id: 2,
-    name: "Valeurs",
+    name: "Services",
     value: "experience",
   },
   // {
@@ -26,14 +26,14 @@ const tabList = [
   //   value: "education",
   // },
   {
-    id: 4,
-    name: "Produits",
+    id: 2,
+    name: "Contact",
     value: "skills",
   },
 ];
 
 const About = () => {
-  const [isTabActive, setIsTabAative] = useState("about");
+  const [isTabActive, setIsTabAative] = useState("experience");
   
   useEffect(() => {
     AOS.init();
@@ -56,7 +56,10 @@ const About = () => {
               data-aos-duration="1000"
             />
             <p className="descrp" data-aos="fade-up" data-aos-duration="1500">
-              L'art de transformer l'instant en opportunité
+              <span className="fst-italic">L'art de transformer l'instant en opportunité </span><br/>
+              Notre proposition de valeur s'appuie sur une trilogie d'expertises qui sont l'advertising,
+              la data et la tech afin d'offrir aux Marques des solutions personnalisées et une approche
+              complète au service de leur performance marketing et de la croissance business.
             </p>
           </div>
           <div className="singletab">
@@ -73,7 +76,7 @@ const About = () => {
               ))}
             </ul>
             <div className="tabcontents">
-              <AboutMe isTabActive={isTabActive} />
+              {/*<AboutMe isTabActive={isTabActive} />*/}
               <Experience isTabActive={isTabActive} />
               {/*<Education isTabActive={isTabActive} />*/}
               <Skills isTabActive={isTabActive} />
