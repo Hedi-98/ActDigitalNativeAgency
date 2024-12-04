@@ -9,7 +9,7 @@ const Root = () => {
 
   return (
     <>
-      {location.pathname === "/ActDigitalNativeAgency/" ? (
+      {location.pathname === "/" ? (
         <div className={`banner__section`}>
           <Header />
           <Banner />
