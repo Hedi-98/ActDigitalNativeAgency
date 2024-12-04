@@ -4,7 +4,7 @@ import {
   Twitter,
   Linkedin,
   Globe,
-  Instagram,
+  Instagram, Whatsapp,
 } from "react-bootstrap-icons";
 
 import { Link } from "react-router-dom";
@@ -33,11 +33,24 @@ const contactInfo = [
     id: 4,
     system: "Follow",
     socalContact: [
-      <Facebook />,
-      <Twitter />,
-      <Linkedin />,
-      <Globe />,
-      <Instagram />,
+      // <Facebook />,
+      // <Twitter />,
+      {
+        id: 41,
+        icon: <Whatsapp />,
+        lien: "https://wa.me/33662290992"
+      },
+      {
+        id: 42,
+        icon: <Linkedin />,
+        lien: "https://www.linkedin.com/company/act-digital-native-agency"
+      },
+      {
+        id: 43,
+        icon: <Globe />,
+        lien: "https://www.actdna.com"
+      }
+      // <Instagram />,
     ],
   },
 ];
@@ -65,17 +78,16 @@ const AboutMe = ({ isTabActive }) => {
                 data-aos="fade-up"
                 data-aos-duration="500"
               >
-                Personal Info
+                Notre valeur ajoutée
               </h2>
               <p
                 className="p-descrip"
                 data-aos="fade-up"
                 data-aos-duration="500"
               >
-                Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                consectetur, aliquam quaerats voluptatem. Ut enim ad minima
-                veniam, exercitationem laboriosam, nisi ut aliquid ex ea autem
-                velit esse quam nihil
+                Notre proposition de valeur s'appuie sur une trilogie d'expertises qui sont l'advertising,
+                la data et la tech afin d'offrir aux Marques des solutions personnalisées et une approche
+                complète au service de leur performance marketing et de la croissance business.
               </p>
               <div className="about__contactwrap">
                 <div className="row g-4">
@@ -94,9 +106,9 @@ const AboutMe = ({ isTabActive }) => {
                             <Link to={""}>{contact}</Link>
                             {socalContact && (
                               <ul className="d-flex align-items-center gap-2 gap-xl-4">
-                                {socalContact.map((info, index) => (
-                                  <li key={index}>
-                                    <Link to={""}>{info} </Link>
+                                {socalContact.map(({ icon, id, lien }) => (
+                                  <li key={id}>
+                                    <Link to={lien}>{icon} </Link>
                                   </li>
                                 ))}
                               </ul>

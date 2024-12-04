@@ -7,7 +7,7 @@ import {
   Linkedin,
   Globe,
   Instagram,
-  PlayFill,
+  PlayFill, Whatsapp,
 } from "react-bootstrap-icons";
 
 import bannerMan from "../../assets/img/banner/banner-man.png";
@@ -26,6 +26,11 @@ const socalIcon = [
   //   icon: <Twitter />,
   // },
   {
+    id: 2,
+    icon: <Whatsapp />,
+    lien: "https://wa.me/33662290992"
+  },
+  {
     id: 3,
     icon: <Linkedin />,
     lien: "https://www.linkedin.com/company/act-digital-native-agency"
@@ -33,7 +38,7 @@ const socalIcon = [
   {
     id: 4,
     icon: <Globe />,
-    lien: "https://www.linkedin.com/company/act-digital-native-agency"
+    lien: "https://www.actdna.com"
   },
   // {
   //   id: 5,
@@ -75,19 +80,19 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="banner__leftinfo">
-        <div className="left__infomobile">
-          <Link to={""}>
-            <img src={dial} alt="img" />
-          </Link>
-          <Link to={""}>(+33)6 62 29 09 92</Link>
-        </div>
-        <div className="right__infoscroll">
-          <Link className="scroll__bar">
-            <img src={scrollDown} alt="img" />
-          </Link>
-        </div>
-      </div>
+      {/*<div className="banner__leftinfo">*/}
+      {/*  <div className="left__infomobile">*/}
+      {/*    <Link to={""}>*/}
+      {/*      <img src={dial} alt="img" />*/}
+      {/*    </Link>*/}
+      {/*    <Link to={""}>(+33)6 62 29 09 92</Link>*/}
+      {/*  </div>*/}
+      {/*  <div className="right__infoscroll">*/}
+      {/*    <Link className="scroll__bar">*/}
+      {/*      <img src={scrollDown} alt="img" />*/}
+      {/*    </Link>*/}
+      {/*  </div>*/}
+      {/*</div>*/}
       <div className="banner__rightinfo">
         <div className="right__infoscroll">
           <Link to={""} className="scroll">

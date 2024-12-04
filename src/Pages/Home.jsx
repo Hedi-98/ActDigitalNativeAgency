@@ -29,13 +29,13 @@ const Home = () => {
       {/*<MarqueeWapper direction="left" images={images} />*/}
       <About />
       {/*<MarqueeWapper direction="right" images={images2} />*/}
-      <Awards />
+      {/*<Awards />*/}
       <Projects />
-      <Metting />
+      {/*<Metting />*/}
       <Services isHeading={true} />
       <WorkeProcess />
-      <Testimonial />
-      <Blogs />
+      {/*<Testimonial />*/}
+      {/*<Blogs />*/}
       <ScrollRestoration/>
     </>
   );

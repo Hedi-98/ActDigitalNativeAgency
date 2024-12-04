@@ -12,22 +12,22 @@ import "aos/dist/aos.css";
 const tabList = [
   {
     id: 1,
-    name: "About",
+    name: "A propos",
     value: "about",
   },
   {
     id: 2,
-    name: "Experience",
+    name: "Valeurs",
     value: "experience",
   },
-  {
-    id: 3,
-    name: "Education",
-    value: "education",
-  },
+  // {
+  //   id: 3,
+  //   name: "Education",
+  //   value: "education",
+  // },
   {
     id: 4,
-    name: "Skills",
+    name: "Produits",
     value: "skills",
   },
 ];
@@ -56,9 +56,7 @@ const About = () => {
               data-aos-duration="1000"
             />
             <p className="descrp" data-aos="fade-up" data-aos-duration="1500">
-              I'm David Matias, I'm a Brand & Webflow Designer, Currently
-              residing in the lush Victoria Street London, Matias operates
-              globally and is ready to take on any design challenge.
+              L'art de transformer l'instant en opportunité
             </p>
           </div>
           <div className="singletab">
@@ -77,7 +75,7 @@ const About = () => {
             <div className="tabcontents">
               <AboutMe isTabActive={isTabActive} />
               <Experience isTabActive={isTabActive} />
-              <Education isTabActive={isTabActive} />
+              {/*<Education isTabActive={isTabActive} />*/}
               <Skills isTabActive={isTabActive} />
             </div>
           </div>

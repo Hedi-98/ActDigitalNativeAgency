@@ -173,6 +173,21 @@
 }
 //about 
 
+.project__section{
+    background: url("/src/assets/img/about/about-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 120px 0px;
+    overflow: hidden;
+    @include mixins.breakpoint(max-xxl){
+        padding: 100px 0;
+    }
+    @include mixins.breakpoint(max-xl){
+        padding: 60px 0 80px;
+    }
+}
+
 //awoard
 .awoard__section{
     background: url("/src/assets/img/about/about-bg.png");
