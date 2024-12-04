@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "[https://hedi-98.github.io/ActDigitalNativeAgency/]",
+  "homepage": "[https://www.act-dna.com/]",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
