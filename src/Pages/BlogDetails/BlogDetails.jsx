@@ -4,7 +4,6 @@ import React from "react";
 import PageHeader from "../../Components/Shared/PageHeader/PageHeader";
 
 import coverBlog from "../../assets/img/blog/img.png";
-import {Link} from "react-router-dom";
 
 const BlogDetails = () => {
 
@@ -22,9 +21,9 @@ const BlogDetails = () => {
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >
-                                <Link to="/blog-details" className="thumb">
+                                <div className="thumb">
                                     <img src={coverBlog} alt="img"/>
-                                </Link>
+                                </div>
                                 <div className="content__two">
                                     <div
                                         className="text__box mb-30"
