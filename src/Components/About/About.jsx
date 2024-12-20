@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from "react";
 
-import sectionStar from "../../assets/img/about/section-star.png";
+import sectionStar from "../../assets/img/about/img_1.png";
 import Experience from "./Experience";
-import Education from "./Education";
 import Skills from "./Skills";
-import AboutMe from "./AboutMe";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -45,7 +43,7 @@ const About = () => {
 
   return (
     <>
-      <section className="about__section pt-120 pb-120" id="about">
+      <section className="about__section pt-60 pb-120" id="about">
         <div className="container">
           <div className="personal__head text-center">
             <img
@@ -56,7 +54,7 @@ const About = () => {
               data-aos-duration="1000"
             />
             <p className="descrp" data-aos="fade-up" data-aos-duration="1500">
-              <span className="fst-italic">L'art de transformer l'instant en opportunité </span><br/>
+              <span className="fst-italic">L’art de conjuguer tech & data à la performance marketing </span><br/>
               Notre proposition de valeur s'appuie sur une trilogie d'expertises qui sont l'advertising,
               la data et la tech afin d'offrir aux Marques des solutions personnalisées et une approche
               complète au service de leur performance marketing et de la croissance business.

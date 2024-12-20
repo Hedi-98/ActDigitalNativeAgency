@@ -72,9 +72,7 @@ const Banner = () => {
               </Link>
               <h1>
                 <span className="hone"> Strategy, Innovation</span>
-                <span className="d-block designers" data-text="Performance">
-                  Performance
-                </span>
+                <span className="hone"> Performance</span>
               </h1>
             </div>
           </div>

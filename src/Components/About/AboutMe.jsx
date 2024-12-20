@@ -78,7 +78,7 @@ const AboutMe = ({ isTabActive }) => {
                 data-aos="fade-up"
                 data-aos-duration="500"
               >
-                L'art de transformer l'instant en opportunité
+                L’art de conjuguer tech & data à la performance marketing
               </h2>
               <p
                 className="p-descrip"

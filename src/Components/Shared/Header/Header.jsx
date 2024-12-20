@@ -6,7 +6,7 @@ import { List, ArrowRight } from "react-bootstrap-icons";
 import Drawer from "../Drawer/Drawer";
 import logo from "../../../assets/img/logo/logo.png";
 
-// const menuList = [
+const menuList = [
 //   {
 //     id: 1,
 //     path: "/",
@@ -59,11 +59,11 @@ import logo from "../../../assets/img/logo/logo.png";
 //         path: "/all-blog",
 //         name: "Blog",
 //       },
-//       {
-//         id: 2,
-//         path: "/blog-details",
-//         name: "Blog Details",
-//       },
+    {
+      id: 2,
+      path: "/blog-details",
+      name: "Blog Details"
+    }
 //     ],
 //   },
 //   {
@@ -71,9 +71,9 @@ import logo from "../../../assets/img/logo/logo.png";
 //     path: "/contact",
 //     name: "Contact",
 //   },
-// ];
+];
 
-const menuList = [];
+// const menuList = [];
 
 const Header = () => {
   const [isSidebarActive, setIsSidebarActive] = useState(false);
