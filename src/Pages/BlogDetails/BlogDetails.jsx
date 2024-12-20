@@ -4,6 +4,8 @@ import React from "react";
 import PageHeader from "../../Components/Shared/PageHeader/PageHeader";
 
 import coverBlog from "../../assets/img/blog/img.png";
+import {ShareSocial} from "react-share-social";
+import {LinkedinIcon, LinkedinShareButton} from "react-share";
 
 const BlogDetails = () => {
 
@@ -97,8 +99,8 @@ const BlogDetails = () => {
                                         </p>
                                     </div>
                                     <div className="quite__box text__box mb-30"
-                                            data-aos="fade-up"
-                                            data-aos-duration="1600">
+                                         data-aos="fade-up"
+                                         data-aos-duration="1600">
                                         <h3 className="white mb-30">
                                             Priorités pour 2025
                                         </h3>
@@ -147,6 +149,12 @@ const BlogDetails = () => {
                                         Les marques qui sauront s’approprier ces nouveaux leviers tout en adoptant une
                                         approche responsable seront celles qui pilotent cette révolution numérique.
                                     </p>
+
+                                    <div className="float-end">
+                                        <LinkedinShareButton url="https://www.actdna.com/#/blog">
+                                            <LinkedinIcon/>
+                                        </LinkedinShareButton>
+                                    </div>
                                 </div>
                             </div>
                         </div>
