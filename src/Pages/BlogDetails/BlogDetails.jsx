@@ -6,6 +6,7 @@ import PageHeader from "../../Components/Shared/PageHeader/PageHeader";
 import BlogSidebar from "../../Components/Blogs/BlogSidebar";
 
 import bblog1 from "../../assets/img/blog/bblog1.png";
+import coverBlog from "../../assets/img/blog/img.png";
 import blogDetailsb2 from "../../assets/img/blog/blog-detailsb2.png";
 import straightQuotes from "../../assets/img/blog/straight-quotes.png";
 import Form from "../../Components/Shared/Form/Form";
@@ -16,8 +17,8 @@ const BlogDetails = () => {
     return (
         <>
             <PageHeader
-                heading={"Révolution numérique\n"}
-                page={"l’IA comme moteur de la nouvelle révolution industrielle"}
+                heading={"Révolution numérique: l’IA comme moteur de la nouvelle révolution industrielle"}
+                // page={"l’IA comme moteur de la nouvelle révolution industrielle"}
             />
             <section className="blog__bsection pb-120">
                 <div className="container">
@@ -29,7 +30,7 @@ const BlogDetails = () => {
                                 data-aos-duration="1000"
                             >
                                 <Link to="" className="thumb">
-                                    <img src={bblog1} alt="img"/>
+                                    <img src={coverBlog} alt="img"/>
                                 </Link>
                                 <div className="content__two">
                                     <div
@@ -37,92 +38,113 @@ const BlogDetails = () => {
                                         data-aos="fade-up"
                                         data-aos-duration="1400"
                                     >
-                      <span className="text__de">
-                        By: admin / Lifestyle / Posted on September 19, 2023 /
-                        Comments: 0
+                      <span className="text__de text-black">
+                        Publié le 20 décembre 2024
                       </span>
                                         <p className="fz-16 pra ttext__one">
-                                            There are many variations of passages of Lorem Ipsum
-                                            available, but the majority have suffered alteration in
-                                            some form, by injected humour, or randomised words which
-                                            don't look even slightly believable. If you are going to
-                                            use a Lorem Ipsum, you need to be sure there isn't
-                                            anything embarrassing hidden in the middle of text. All
-                                            the Lorem Ipsum the Internet tend to repeat predefined
-                                            chunks as necessary,
+                                            Le secteur de la publicité digitale traverse une mutation profonde, portée
+                                            par l’intégration de l’intelligence artificielle (IA), des innovations
+                                            technologiques et de métriques plus fines. À cela s’ajoute la disparition
+                                            progressive des cookies tiers, qui redéfinit les règles du jeu.
+                                            Ce changement vise non seulement à redéfinir la manière dont les marques
+                                            créent leurs campagnes, mesurent l’efficacité et optimisent leurs
+                                            investissements, mais aussi à répondre à des préoccupations plus larges,
+                                            telles que la durabilité et l’impact environnemental.
+                                            Voici un aperçu des tendances actuelles;
                                         </p>
+                                        <h3 className="base mb-30">
+                                            L’impact du Cookieless sur les stratégies publicitaires
+                                        </h3>
                                         <p className="fz-16 pra">
-                                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-                                            aut odit aut fugit, sed quia consequuntur magni neque
-                                            porro quisquam est, qui dolorem ipsum quia dolor sit
-                                            amet, adipisci velit, sed quia non numquam eius modi
-                                            tempora incidunts ut labore et dolore magnam aliquam
-                                            quaerat voluptatem. Ut enim ad minima veniam, quis
-                                            nostrum exercitationem the corporis suscipit laboriosam,
-                                            nisi ut aliquid
+                                            Avec la fin progressive des cookies tiers, les entreprises doivent repenser
+                                            leurs méthodes de collecte de données. Désormais, l’accent est mis sur les
+                                            données propriétaires et des outils analytiques sophistiqués pour continuer
+                                            à diffuser des publicités pertinentes.
+                                            <br/>
+                                            L’IA joue un rôle central dans cette transition, en aidant à analyser des
+                                            données contextuelles et comportementales directement issues des
+                                            interactions utilisateurs, tout en respectant les réglementations.
+                                        </p>
+                                        <h3 className="base mb-30">
+                                            L’IA et le Marketing Mix Modeling : une combinaison gagnante
+                                        </h3>
+                                        <p className="fz-16 pra">
+                                            Face à un écosystème en pleine évolution, le Marketing Mix Modeling (MMM)
+                                            s’impose comme une méthode clé pour évaluer les performances des campagnes.
+                                            <br/>
+                                            Ce modèle statistique analyse l’impact de chaque canal publicitaire
+                                            (TV, digital, radio, etc.) sur les ventes ou d’autres indicateurs
+                                            stratégiques. Il permet ainsi aux marques d’optimiser leurs investissements
+                                            en adoptant une approche globale et précise.
+                                        </p>
+                                        <h3 className="base mb-30">
+                                            L’Attention : Un Nouvel Indicateur Clé de Performance
+                                        </h3>
+                                        <p className="fz-16 pra">
+                                            Avec la fin progressive des cookies tiers, les entreprises doivent repenser
+                                            leurs méthodes de collecte de données. Désormais, l’accent est mis sur les
+                                            données propriétaires et des outils analytiques sophistiqués pour continuer
+                                            à diffuser des publicités pertinentes.
+                                            L’IA joue un rôle central dans cette transition, en aidant à analyser des
+                                            données contextuelles et comportementales directement issues des
+                                            interactions utilisateurs, tout en respectant les réglementations.
+                                            <br/>
+                                            Le Coût Par Seconde d’Attention Active (CPSA) émerge comme un nouveau KPI
+                                            de référence. Cet indicateur mesure le coût nécessaire pour capter
+                                            l’attention active d’un utilisateur pendant un temps donné, offrant une
+                                            perspective plus qualitative.
                                         </p>
                                     </div>
-                                    <div className="quite__box mb-30">
-                                        <img src={straightQuotes} alt="img"/>
-                                        <p>
-                                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-                                            aut odit aut fugit, sed quia consequuntur magni dolores
-                                            eos qui ratione voluptatem sequi nesciunt. Neque porro
-                                            quisquam est, adipisci velit, sed quia non numquam
-                                        </p>
-                                        <Link to="">David Kingston</Link>
+                                    <div className="quite__box text__box mb-30"
+                                            data-aos="fade-up"
+                                            data-aos-duration="1600">
+                                        <h3 className="white mb-30">
+                                            Priorités pour 2025
+                                        </h3>
+                                        <div
+                                            className="text__box mb-30">
+                                            <ul className="challenge__list">
+                                                <li>
+                                                    <span className="fw-bold text-white">
+                                                        Gestion des données post-cookie :
+                                                    </span>
+                                                    Innover dans la collecte et la
+                                                    gestion des données tout en respectant les réglementations.
+                                                </li>
+                                                <li>
+                                                    <span className="fw-bold text-white">
+                                                        Optimisation via l’IA :
+                                                    </span>
+                                                    Exploiter l’intelligence artificielle pour
+                                                    améliorer le retour sur investissement publicitaire.
+                                                </li>
+                                                <li>
+                                                    <span className="fw-bold text-white">
+                                                    Partenariats stratégiques :
+                                                    </span>
+                                                    Travailler avec des agences spécialisées
+                                                    et des plateformes technologiques pour rester à la pointe.
+                                                </li>
+                                                <li>
+                                                    <span className="fw-bold text-white">
+                                                    Responsabilité et communication ESG :
+                                                    </span>
+                                                    Promouvoir des pratiques
+                                                    éthiques et durables sans tomber dans le piège du greenwashing.
+                                                </li>
+                                                <li>
+                                                    <span className="fw-bold text-white">
+                                                    Focus sur l’Attention :
+                                                    </span>
+                                                    Intégrer le CPSA dans les outils de mesure
+                                                    pour mieux comprendre l’engagement des audiences.,
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                     <p className="fz-16 pra ttext__one mb__cus60">
-                                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-                                        aut odit aut fugit, sed quia consequuntur magni dolores
-                                        eos qui ratione voluptatem sequi nesciunt. Neque porro
-                                        quisquam est, qui dolorem ipsum quia dolor sit amet,
-                                        consectetur, adipisci velit, sed quia non numquam eius
-                                        modi tempora incidunt ut labore et dolore magnam aliquam
-                                        minima veniam, quis nostrum exercitationem ullam corporis
-                                        suscipit laboriosam,
-                                    </p>
-                                    <h3 className="white mb-30">
-                                        Matias is the only theme you will ever need
-                                    </h3>
-                                    <div className="thumb mb-30">
-                                        <img src={blogDetailsb2} alt="img"/>
-                                    </div>
-                                    <p className="fz-16 pra ttext__one mb-30">
-                                        On the other hand, we denounce with righteous indignation
-                                        and dislike men who are so beguiled and demoralized by the
-                                        charms of pleasure of the moment, so blinded by desire,
-                                        that they cannot foresee the pain and trouble that are
-                                        bound to ensue; and equal blame belongs to those who fail
-                                        in their duty through weakness of will, which is the same
-                                        as from these cases are perfectly simple and easy to
-                                        distinguish. In a free hour,
-                                    </p>
-                                    <div
-                                        className="text__box mb-30"
-                                        data-aos="fade-up"
-                                        data-aos-duration="1600"
-                                    >
-                                        <ul className="challenge__list">
-                                            <li>
-                                                Duis aute irure dolor in reprehenderit in voluptate
-                                                velit esse cillum dolore eu fugiat nulla pariatur.
-                                            </li>
-                                            <li>
-                                                Nor again is there anyone who loves or pursues or
-                                                desires to obtain pain of itself, because it is pain,
-                                            </li>
-                                            <li>
-                                                On the other hand, we denounce with righteous
-                                                indignation and dislike
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <p className="fz-16 pra ttext__one mb-30">
-                                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-                                        aut odit aut fugit, sed quia consequuntur magni dolores
-                                        eos qui ratione voluptatem sequi nesciunt. Neque porro
-                                        quisquam est, qui dolorem
+                                        Les marques qui sauront s’approprier ces nouveaux leviers tout en adoptant une
+                                        approche responsable seront celles qui pilotent cette révolution numérique.
                                     </p>
                                 </div>
                             </div>
