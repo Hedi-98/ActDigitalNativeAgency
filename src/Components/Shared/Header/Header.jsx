@@ -147,14 +147,14 @@ const Header = () => {
             {/*    <ArrowRight className="fz-20" />*/}
             {/*  </span>*/}
             {/*</Link>*/}
-            {/*<div*/}
-            {/*  onClick={handleHeaderToggle}*/}
-            {/*  className={`header-bar d-lg-none ${menuActive ? "active" : ""}`}*/}
-            {/*>*/}
-            {/*  <span></span>*/}
-            {/*  <span></span>*/}
-            {/*  <span></span>*/}
-            {/*</div>*/}
+            <div
+              onClick={handleHeaderToggle}
+              className={`header-bar d-lg-none ${menuActive ? "active" : ""}`}
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
             <div
               onClick={() => setIsSidebarActive(true)}
               className="remove__click"

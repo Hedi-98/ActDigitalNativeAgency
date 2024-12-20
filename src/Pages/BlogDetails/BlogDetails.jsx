@@ -107,35 +107,35 @@ const BlogDetails = () => {
                                             <ul className="challenge__list">
                                                 <li>
                                                     <span className="fw-bold text-white">
-                                                        Gestion des données post-cookie :
+                                                        Gestion des données post-cookie
                                                     </span>
                                                     Innover dans la collecte et la
                                                     gestion des données tout en respectant les réglementations.
                                                 </li>
                                                 <li>
                                                     <span className="fw-bold text-white">
-                                                        Optimisation via l’IA :
+                                                        Optimisation via l’IA
                                                     </span>
                                                     Exploiter l’intelligence artificielle pour
                                                     améliorer le retour sur investissement publicitaire.
                                                 </li>
                                                 <li>
                                                     <span className="fw-bold text-white">
-                                                    Partenariats stratégiques :
+                                                    Partenariats stratégiques
                                                     </span>
                                                     Travailler avec des agences spécialisées
                                                     et des plateformes technologiques pour rester à la pointe.
                                                 </li>
                                                 <li>
                                                     <span className="fw-bold text-white">
-                                                    Responsabilité et communication ESG :
+                                                    Responsabilité et communication ESG
                                                     </span>
                                                     Promouvoir des pratiques
                                                     éthiques et durables sans tomber dans le piège du greenwashing.
                                                 </li>
                                                 <li>
                                                     <span className="fw-bold text-white">
-                                                    Focus sur l’Attention :
+                                                    Focus sur l’Attention
                                                     </span>
                                                     Intégrer le CPSA dans les outils de mesure
                                                     pour mieux comprendre l’engagement des audiences.,

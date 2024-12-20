@@ -115,6 +115,11 @@
     img {
       margin-bottom: 30px;
     }
+    h3 {
+      @include mixins.breakpoint(max-lg){
+        text-align: center; /* Center align the text */
+      }
+    }
     p {
       font-size: 20px;
       color: var(--white);
@@ -196,5 +201,16 @@
         font-size: 12px;
       }
     }
+  }
+}
+.text__box ul li{
+  @include mixins.breakpoint(max-lg){
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center align the text */
+  }
+}
+.blog__bsection{
+  @include mixins.breakpoint(max-lg){
+    margin-right: 10px;
   }
 }

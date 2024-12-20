@@ -29,6 +29,7 @@
 .header-section {
   width: 100%;
   z-index: 9;
+  background: rgba(0, 0, 0, 0.5);
   position: relative;
   .container {
     @include mixins.breakpoint(xl) {
@@ -121,7 +122,7 @@
   }
   .main-menu {
     display: flex;
-    align-items: center;
+    justify-content: flex-end;
     width: 70%;
     li {
       transition: all 0.4s;
@@ -328,7 +329,7 @@
     transition: all 0.4s !important;
     transform-origin: top;
     max-height: calc(100vh - 130px);
-    background: var(--subtitle);
+    background: rgba(0, 0, 0, 0.5);
     overflow-y: auto;
     &:not(.active) {
       position: fixed;

@@ -123,8 +123,9 @@
 }
 
 .challenge__list {
-  list-style-type: circle !important;
-  padding-left: 20px !important;
+  @include mixins.breakpoint(xl) {
+    padding-left: 20px;
+  }
   li {
     display: flex;
     align-items: center;
