@@ -47,10 +47,12 @@ const BlogDetails = () => {
                                             technologiques et de métriques plus fines. À cela s’ajoute la disparition
                                             progressive des cookies tiers, qui redéfinit les règles du jeu.
                                             <br/>
+                                            <br/>
                                             Ce changement vise non seulement à redéfinir la manière dont les marques
                                             créent leurs campagnes, mesurent l’efficacité et optimisent leurs
                                             investissements, mais aussi à répondre à des préoccupations plus larges,
                                             telles que la durabilité et l’impact environnemental.
+                                            <br/>
                                             <br/>
                                             Voici un aperçu des tendances actuelles;
                                         </p>
@@ -63,6 +65,7 @@ const BlogDetails = () => {
                                             données propriétaires et des outils analytiques sophistiqués pour continuer
                                             à diffuser des publicités pertinentes.
                                             <br/>
+                                            <br/>
                                             L’IA joue un rôle central dans cette transition, en aidant à analyser des
                                             données contextuelles et comportementales directement issues des
                                             interactions utilisateurs, tout en respectant les réglementations.
@@ -73,6 +76,7 @@ const BlogDetails = () => {
                                         <p className="fz-16 pra ttext__one">
                                             Face à un écosystème en pleine évolution, le Marketing Mix Modeling (MMM)
                                             s’impose comme une méthode clé pour évaluer les performances des campagnes.
+                                            <br/>
                                             <br/>
                                             Ce modèle statistique analyse l’impact de chaque canal publicitaire
                                             (TV, digital, radio, etc.) sur les ventes ou d’autres indicateurs
@@ -88,9 +92,11 @@ const BlogDetails = () => {
                                             données propriétaires et des outils analytiques sophistiqués pour continuer
                                             à diffuser des publicités pertinentes.
                                             <br/>
+                                            <br/>
                                             L’IA joue un rôle central dans cette transition, en aidant à analyser des
                                             données contextuelles et comportementales directement issues des
                                             interactions utilisateurs, tout en respectant les réglementations.
+                                            <br/>
                                             <br/>
                                             Le Coût Par Seconde d’Attention Active (CPSA) émerge comme un nouveau KPI
                                             de référence. Cet indicateur mesure le coût nécessaire pour capter
