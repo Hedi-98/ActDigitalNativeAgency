@@ -3,14 +3,8 @@ import {Link, ScrollRestoration} from "react-router-dom";
 
 
 import PageHeader from "../../Components/Shared/PageHeader/PageHeader";
-import BlogSidebar from "../../Components/Blogs/BlogSidebar";
 
-import bblog1 from "../../assets/img/blog/bblog1.png";
 import coverBlog from "../../assets/img/blog/img.png";
-import blogDetailsb2 from "../../assets/img/blog/blog-detailsb2.png";
-import straightQuotes from "../../assets/img/blog/straight-quotes.png";
-import Form from "../../Components/Shared/Form/Form";
-import {socialIcons} from "../../Utlits/socilIcons";
 
 const BlogDetails = () => {
 
@@ -18,7 +12,6 @@ const BlogDetails = () => {
         <>
             <PageHeader
                 heading={"Révolution numérique: l’IA comme moteur de la nouvelle révolution industrielle"}
-                // page={"l’IA comme moteur de la nouvelle révolution industrielle"}
             />
             <section className="blog__bsection pb-120">
                 <div className="container">

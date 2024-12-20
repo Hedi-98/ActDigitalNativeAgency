@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import sectionStar from "../../assets/img/about/img_1.png";
+import sectionStar from "../../assets/img/about/img_1.webp";
 import Experience from "./Experience";
 import Skills from "./Skills";
 
@@ -54,7 +54,7 @@ const About = () => {
               data-aos-duration="1000"
             />
             <p className="descrp" data-aos="fade-up" data-aos-duration="1500">
-              <span className="fst-italic">L’art de conjuguer tech & data à la performance marketing </span><br/>
+              <span>L’art de conjuguer Tech & Data à la Performance marketing </span><br/>
               Notre proposition de valeur s'appuie sur une trilogie d'expertises qui sont l'advertising,
               la data et la tech afin d'offrir aux Marques des solutions personnalisées et une approche
               complète au service de leur performance marketing et de la croissance business.
