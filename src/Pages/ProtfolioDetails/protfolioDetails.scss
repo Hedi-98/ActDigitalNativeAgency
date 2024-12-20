@@ -103,6 +103,8 @@
 }
 .text__box {
   .ttext__one {
+    text-align: justify;
+    line-height: 1.8;
     margin-bottom: 28px;
     @include mixins.breakpoint(max-xl) {
       margin-bottom: 15px;

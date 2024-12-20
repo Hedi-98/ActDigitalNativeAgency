@@ -46,16 +46,18 @@ const BlogDetails = () => {
                                             par l’intégration de l’intelligence artificielle (IA), des innovations
                                             technologiques et de métriques plus fines. À cela s’ajoute la disparition
                                             progressive des cookies tiers, qui redéfinit les règles du jeu.
+                                            <br/>
                                             Ce changement vise non seulement à redéfinir la manière dont les marques
                                             créent leurs campagnes, mesurent l’efficacité et optimisent leurs
                                             investissements, mais aussi à répondre à des préoccupations plus larges,
                                             telles que la durabilité et l’impact environnemental.
+                                            <br/>
                                             Voici un aperçu des tendances actuelles;
                                         </p>
-                                        <h3 className="base mb-30">
+                                        <h5 className="base mb-30">
                                             L’impact du Cookieless sur les stratégies publicitaires
-                                        </h3>
-                                        <p className="fz-16 pra">
+                                        </h5>
+                                        <p className="fz-16 pra ttext__one">
                                             Avec la fin progressive des cookies tiers, les entreprises doivent repenser
                                             leurs méthodes de collecte de données. Désormais, l’accent est mis sur les
                                             données propriétaires et des outils analytiques sophistiqués pour continuer
@@ -65,10 +67,10 @@ const BlogDetails = () => {
                                             données contextuelles et comportementales directement issues des
                                             interactions utilisateurs, tout en respectant les réglementations.
                                         </p>
-                                        <h3 className="base mb-30">
+                                        <h5 className="base mb-30">
                                             L’IA et le Marketing Mix Modeling : une combinaison gagnante
-                                        </h3>
-                                        <p className="fz-16 pra">
+                                        </h5>
+                                        <p className="fz-16 pra ttext__one">
                                             Face à un écosystème en pleine évolution, le Marketing Mix Modeling (MMM)
                                             s’impose comme une méthode clé pour évaluer les performances des campagnes.
                                             <br/>
@@ -77,14 +79,15 @@ const BlogDetails = () => {
                                             stratégiques. Il permet ainsi aux marques d’optimiser leurs investissements
                                             en adoptant une approche globale et précise.
                                         </p>
-                                        <h3 className="base mb-30">
+                                        <h5 className="base mb-30">
                                             L’Attention : Un Nouvel Indicateur Clé de Performance
-                                        </h3>
-                                        <p className="fz-16 pra">
+                                        </h5>
+                                        <p className="fz-16 pra ttext__one">
                                             Avec la fin progressive des cookies tiers, les entreprises doivent repenser
                                             leurs méthodes de collecte de données. Désormais, l’accent est mis sur les
                                             données propriétaires et des outils analytiques sophistiqués pour continuer
                                             à diffuser des publicités pertinentes.
+                                            <br/>
                                             L’IA joue un rôle central dans cette transition, en aidant à analyser des
                                             données contextuelles et comportementales directement issues des
                                             interactions utilisateurs, tout en respectant les réglementations.

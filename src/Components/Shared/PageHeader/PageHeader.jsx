@@ -5,9 +5,10 @@ const PageHeader = ({heading, page}) => {
   return (
     <div className="container pt-120 pb-120">
       <div className="row g-4 justify-content-center">
-        <div className="">
+        {/*<div className="col-lg-8">*/}
+        <div>
           <div className="breadcrumnd__wrap text-center">
-            <h1>{heading}</h1>
+            <h3 className="text-black">{heading}</h3>
             <ul className="breakcrumnd__cont justify-content-center">
               <li className="base">{page}</li>
             </ul>
