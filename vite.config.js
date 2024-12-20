@@ -8,4 +8,7 @@ export default defineConfig({
     index: "src/main.js",
     other_page: "src/main.js",
   },
+  server: {
+    historyApiFallback: true,
+  },
 })
