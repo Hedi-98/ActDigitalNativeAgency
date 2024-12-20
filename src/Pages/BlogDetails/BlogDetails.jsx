@@ -1,10 +1,10 @@
 import React from "react";
-import {Link, ScrollRestoration} from "react-router-dom";
 
 
 import PageHeader from "../../Components/Shared/PageHeader/PageHeader";
 
 import coverBlog from "../../assets/img/blog/img.png";
+import {Link} from "react-router-dom";
 
 const BlogDetails = () => {
 
@@ -22,7 +22,7 @@ const BlogDetails = () => {
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >
-                                <Link to="" className="thumb">
+                                <Link to="/blog-details" className="thumb">
                                     <img src={coverBlog} alt="img"/>
                                 </Link>
                                 <div className="content__two">
@@ -154,7 +154,6 @@ const BlogDetails = () => {
                     </div>
                 </div>
             </section>
-            <ScrollRestoration/>
         </>
     );
 };
