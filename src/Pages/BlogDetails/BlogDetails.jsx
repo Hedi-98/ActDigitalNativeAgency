@@ -151,7 +151,7 @@ const BlogDetails = () => {
                                     </p>
 
                                     <div className="float-end">
-                                        <LinkedinShareButton url="https://www.actdna.com/#/blog">
+                                        <LinkedinShareButton url="https://www.actdna.com/#/blog/ia-moteur-de-la-nouvelle-revolution-industrielle">
                                             <LinkedinIcon/>
                                         </LinkedinShareButton>
                                     </div>

@@ -17,7 +17,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Root />}>
             <Route index element={<Home />} />
-            <Route path="blog" element={<BlogDetails />} />
+            <Route path="blog/ia-moteur-de-la-nouvelle-revolution-industrielle" element={<BlogDetails />} />
           </Route>
         </Routes>
       </HashRouter>

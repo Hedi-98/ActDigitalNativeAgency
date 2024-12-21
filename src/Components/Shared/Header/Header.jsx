@@ -61,7 +61,7 @@ const menuList = [
 //       },
     {
       id: 2,
-      path: "/blog",
+      path: "/blog/ia-moteur-de-la-nouvelle-revolution-industrielle",
       name: "Blog"
     }
 //     ],
