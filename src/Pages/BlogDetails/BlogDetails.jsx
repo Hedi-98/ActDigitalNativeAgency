@@ -140,7 +140,7 @@ const BlogDetails = () => {
                                                     Focus sur l’Attention
                                                     </span>
                                                     Intégrer le CPSA dans les outils de mesure
-                                                    pour mieux comprendre l’engagement des audiences.,
+                                                    pour mieux comprendre l’engagement des audiences.
                                                 </li>
                                             </ul>
                                         </div>
