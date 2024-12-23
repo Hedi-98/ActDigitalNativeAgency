@@ -1250,10 +1250,9 @@ p {
 
 //circle hover
 .hover__circle {
-  width: 208px;
-  height: 208px;
+  width: 300px;
+  height: 200px;
   background: var(--base);
-  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1271,18 +1270,16 @@ p {
     }
     .textmore {
       color: #282828;
-      font-size: 18px;
+      font-size: 15px;
       font-style: normal;
       font-weight: 500;
       line-height: 30px;
-      text-transform: capitalize;
       transition: all 0.4s;
     }
   }
   &::before {
-    width: 208px;
-    height: 208px;
-    border-radius: 50%;
+    width: 300px;
+    height: 200px;
     border: 1px solid var(--base);
     content: "";
     position: absolute;

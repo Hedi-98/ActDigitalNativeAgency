@@ -38,14 +38,14 @@
   @include mixins.breakpoint(max-xl) {
     margin-top: 40px;
     .hover__circle {
-      width: 75px;
-      height: 75px;
+      width: 280px;
+      height: 180px;
       .textmore {
         font-size: 8px;
       }
       &::before {
-        width: 75px;
-        height: 75px;
+        width: 280px;
+        height: 180px;
       }
     }
   }
