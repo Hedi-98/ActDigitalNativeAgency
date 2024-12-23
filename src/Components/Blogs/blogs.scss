@@ -34,18 +34,23 @@
     }
   }
 }
+.cmn--btn {
+  @include mixins.breakpoint(max-xl) {
+    font-size: 12px;
+  }
+}
 .blog__hoverbox {
   @include mixins.breakpoint(max-xl) {
     margin-top: 40px;
     .hover__circle {
-      width: 280px;
-      height: 180px;
+      width: 250px;
+      height: 150px;
       .textmore {
-        font-size: 8px;
+        font-size: 12px;
       }
       &::before {
-        width: 280px;
-        height: 180px;
+        width: 250px;
+        height: 150px;
       }
     }
   }
