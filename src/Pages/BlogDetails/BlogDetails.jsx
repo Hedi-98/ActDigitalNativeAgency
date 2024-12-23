@@ -4,7 +4,6 @@ import React from "react";
 import PageHeader from "../../Components/Shared/PageHeader/PageHeader";
 
 import coverBlog from "../../assets/img/blog/img.png";
-import {ShareSocial} from "react-share-social";
 import {LinkedinIcon, LinkedinShareButton} from "react-share";
 
 const BlogDetails = () => {

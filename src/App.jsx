@@ -7,6 +7,9 @@ import "aos/dist/aos.css";
 import Home from "./Pages/Home.jsx";
 import Root from "./Layouts/Root.jsx";
 import BlogDetails from "./Pages/BlogDetails/BlogDetails.jsx";
+import Blog from "./Components/Blogs/Blog.jsx";
+import Blogs from "./Components/Blogs/Blogs.jsx";
+import AllBlogs from "./Pages/AllBlogs/AllBlogs.jsx";
 
 const App = () => {
   useEffect(() => {
@@ -14,13 +17,16 @@ const App = () => {
   }, []);
   return (
       <HashRouter>
-        <Routes>
-          <Route path="/" element={<Root />}>
-            <Route index element={<Home />} />
-            <Route path="blog/ia-moteur-de-la-nouvelle-revolution-industrielle" element={<BlogDetails />} />
-          </Route>
-        </Routes>
+          <Routes>
+              <Route path="/" element={<Root />}>
+                  <Route index element={<Home />} />
+                  <Route path="blog/" element={<Blogs />}>
+                      <Route path="ia-moteur-de-la-nouvelle-revolution-industrielle" element={<BlogDetails />} />
+                  </Route>
+              </Route>
+          </Routes>
       </HashRouter>
+
   );
 };
 

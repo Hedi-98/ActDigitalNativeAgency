@@ -1,8 +1,7 @@
 //blog
 @use '../../scss/abstracts/mixins';
 .blog__section {
-  background: url("/src/assets/img/about/about-bg.png") no-repeat center center;
-  background-size: cover;
+  background-color: var(--white);
   overflow: hidden;
   .project__head {
     .common__sub {
@@ -39,14 +38,14 @@
   @include mixins.breakpoint(max-xl) {
     margin-top: 40px;
     .hover__circle {
-      width: 150px;
-      height: 150px;
+      width: 75px;
+      height: 75px;
       .textmore {
-        font-size: 14px;
+        font-size: 8px;
       }
       &::before {
-        width: 150px;
-        height: 150px;
+        width: 75px;
+        height: 75px;
       }
     }
   }
@@ -56,6 +55,7 @@
   }
 }
 .blog__rightwrap {
+  background-color: var(--white);
   .left__service {
     width: 720px;
     .serial__adjust {
@@ -71,17 +71,17 @@
         }
         h3 {
           font-size: 30px;
-          color: var(--white);
+          color: var(--base);
           line-height: 44px;
           a {
-            color: var(--white);
+            color: var(--base);
           }
         }
       }
       width: 340px;
     }
     .opa__thumb {
-      opacity: 0;
+      opacity: 1;
       transition: all 0.6s;
       @include mixins.breakpoint(max-md) {
         opacity: 1;

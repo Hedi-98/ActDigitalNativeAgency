@@ -1,17 +1,6 @@
 import React from "react";
-import { useState } from "react";
-import { Eye } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
-import Lightbox from "../Shared/LightBox/LightBox";
-import { blogImages } from "../../Utlits/blogList";
-const Blog = ({ date, heading, image, index }) => {
-  const [currentId, setCurrentId] = useState(0);
-  const [lightboxOpen, setLightboxOpen] = useState(false);
-
-  const openLightbox = (index) => {
-    setCurrentId(index);
-    setLightboxOpen(true);
-  };
+const Blog = ({ date, heading, image, linkUrl }) => {
   return (
     <>
       <div
@@ -24,7 +13,7 @@ const Blog = ({ date, heading, image, index }) => {
             <div className="cont">
               <span className="dates"> {date} </span>
               <h3>
-                <Link to={"/blog-details"}>{heading}</Link>
+                <Link to={"/blog/"+linkUrl}>{heading}</Link>
               </h3>
             </div>
           </div>
@@ -32,21 +21,10 @@ const Blog = ({ date, heading, image, index }) => {
             <img
               src={image}
               alt="img-opa"
-              onClick={() => openLightbox(index)}
             />
           </div>
         </div>
-        <div className="common__icon imgc">
-          <Eye className="i" />
-        </div>
       </div>
-      {lightboxOpen && (
-        <Lightbox
-          images={blogImages}
-          setLightboxOpen={setLightboxOpen}
-          currentId={currentId}
-        />
-      )}
     </>
   );
 };
