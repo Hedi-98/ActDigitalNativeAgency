@@ -18,7 +18,7 @@ const AllBlogs = () => {
           <div className="row g-4">
             <div className="col-lg-8">
               <div className="blog__bleft__wrapper">
-                {blogsList.map(({ id, heading, image, para, date }) => (
+                {blogsList.slice().reverse().map(({ id, heading, image, para, date }) => (
                   <BlogCard
                     key={id}
                     date={date}

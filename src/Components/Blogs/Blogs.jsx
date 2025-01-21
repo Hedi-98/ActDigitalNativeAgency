@@ -71,7 +71,7 @@ const Blogs = () => {
                 <div className="col-xl-8 col-lg-9">
                   <div className="blog__rightwrap">
                     <div className="service__uniquewrap">
-                      {blogsList.slice(0, 3).map(({id, date, image, heading, linkUrl}) => (
+                      {blogsList.slice(0, 3).reverse().map(({id, date, image, heading, linkUrl}) => (
                           <Blog key={id} date={date} image={image} heading={heading} linkUrl={linkUrl} />
                       ))}
                     </div>

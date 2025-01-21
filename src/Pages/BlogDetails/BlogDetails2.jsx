@@ -4,10 +4,10 @@ import "react";
 import PageHeader from "../../Components/Shared/PageHeader/PageHeader";
 
 import coverBlog from "../../assets/img/blog/blog2/cover.png";
-import img1 from "../../assets/img/blog/blog2/Picture1.jpg";
-import img2 from "../../assets/img/blog/blog2/Picture2.jpg";
-import img3 from "../../assets/img/blog/blog2/Picture3.jpg";
-import img4 from "../../assets/img/blog/blog2/Picture4.jpg";
+import img1 from "../../assets/img/blog/blog2/Picture1.png";
+import img2 from "../../assets/img/blog/blog2/Picture2.png";
+import img3 from "../../assets/img/blog/blog2/Picture3.png";
+import img4 from "../../assets/img/blog/blog2/Picture4.jpeg";
 
 import {LinkedinIcon, LinkedinShareButton} from "react-share";
 
@@ -77,7 +77,7 @@ const BlogDetails2 = () => {
                                             </div>
 
                                             <div>
-                                                <img src={img2} className="img2-wrapper mb-3"
+                                                <img src={img2} className="img2-wrapper"
                                                      alt="AI-Generated Image by MidJourney"/>
                                                 <p className="fz-16 pra ttext__one fst-italic desc-image">“Ces images, générées par
                                                     MidJourney, démontrent le potentiel créatif de l'IA générative.

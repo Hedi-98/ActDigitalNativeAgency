@@ -225,13 +225,14 @@
 }
 
 .img2-wrapper{
-  width: 50%;
+  width: 40%;
   border-radius: 8px;
   margin-left: 8%;
+  margin-bottom: 2rem;
 }
 
 .image-wrapper img {
-  width: 100%;
+  width: 80%;
   height: auto;
   border-radius: 8px;
 }
@@ -257,6 +258,7 @@
 .image-wrapper-2 {
   margin-left: auto;
   img {
+    width: 100%;
     height: auto;
   }
 }
@@ -285,7 +287,7 @@
   }
 
   .img2-wrapper {
-    width: 100%; /* Make the second image wrapper full width */
+    width: 30%; /* Make the second image wrapper full width */
   }
 
   .clearfix-1 {

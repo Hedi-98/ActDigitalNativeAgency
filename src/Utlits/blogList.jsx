@@ -21,5 +21,3 @@ export const blogsList = [{
     à la publicité digitale : l'IA générative et l'IA prédictive. `,
     linkUrl: "ia-avenir-de-la-publicite-digitale"
 },];
-
-export const blogImages = [blog1];
