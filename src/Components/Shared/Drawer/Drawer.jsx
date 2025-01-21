@@ -52,7 +52,7 @@ const Drawer = ({ isSidebarActive, setIsSidebarActive }) => {
         <p>
           Notre proposition de valeur s'appuie sur une trilogie d'expertises qui sont l'advertising,
           la data et la tech afin d'offrir aux Marques des solutions personnalisées et une approche
-          complète au service de leur performance marketing et de la croissance business.
+          complète au service de leur performance marketing et de leur croissance business.
         </p>
         <div className="sub__contact-left d-grid">
           {/*<div className="sub__contac-item">*/}
