@@ -214,3 +214,98 @@
     margin-right: 10px;
   }
 }
+.text-link{
+  color: blue;
+}
+
+.image-wrapper {
+  float: left;
+  margin: 0 20px 20px 0;
+  max-width: 300px;
+}
+
+.img2-wrapper{
+  width: 50%;
+  border-radius: 8px;
+  margin-left: 8%;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.clearfix{
+  width: 60%;
+  margin: 0 auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.clearfix-1 {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start; /* Align items at the top */
+  gap: 20px; /* Add space between text and image */
+}
+
+.image-wrapper-2 {
+  margin-left: auto;
+  img {
+    height: auto;
+  }
+}
+
+.custom-list {
+  list-style-type: disc; /* Use bullet points */
+  margin-left: 50px; /* Add indentation */
+  padding-left: 10px; /* Add padding for better spacing */
+}
+
+.image-wrapper-3 {
+  width: 60%;
+  margin: 0 auto;
+  img{
+    width: 100%;
+  }
+}
+/* Responsive styles for phones */
+@media (max-width: 767px) {
+  .clearfix, .clearfix-1, .image-wrapper-3{
+    width: 100%; /* Make clearfix classes 100% wide on phones */
+  }
+
+  .image-wrapper, .img2-wrapper {
+    max-width: 40%; /* Make images take full width on phones */
+  }
+
+  .img2-wrapper {
+    width: 100%; /* Make the second image wrapper full width */
+  }
+
+  .clearfix-1 {
+    flex-direction: column; /* Stack items vertically on phones */
+    gap: 10px; /* Reduce gap between text and image */
+  }
+
+  .image-wrapper-2 {
+    img{
+      width: 100%;
+    }
+  }
+  .desc-image {
+    font-size: 10px;
+  }
+  .custom-list{
+    margin-left: 0;
+    padding-left: 0;
+    li{
+      text-align: left !important;
+    }
+  }
+}

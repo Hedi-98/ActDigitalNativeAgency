@@ -1,15 +1,13 @@
 import { useEffect } from "react";
-import {HashRouter, Route, RouterProvider, Routes} from "react-router-dom";
-import { router } from "./Router/Router.jsx";
+import {HashRouter, Route, Routes} from "react-router-dom";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Home from "./Pages/Home.jsx";
 import Root from "./Layouts/Root.jsx";
 import BlogDetails from "./Pages/BlogDetails/BlogDetails.jsx";
-import Blog from "./Components/Blogs/Blog.jsx";
 import Blogs from "./Components/Blogs/Blogs.jsx";
-import AllBlogs from "./Pages/AllBlogs/AllBlogs.jsx";
+import BlogDetails2 from "./Pages/BlogDetails/BlogDetails2.jsx";
 
 const App = () => {
   useEffect(() => {
@@ -22,6 +20,7 @@ const App = () => {
                   <Route index element={<Home />} />
                   <Route path="blog/" element={<Blogs />}>
                       <Route path="ia-moteur-de-la-nouvelle-revolution-industrielle" element={<BlogDetails />} />
+                      <Route path="ia-avenir-de-la-publicite-digitale" element={<BlogDetails2 />} />
                   </Route>
               </Route>
           </Routes>
