@@ -79,7 +79,8 @@ const BlogDetails2 = () => {
                                             <div>
                                                 <img src={img2} className="img2-wrapper"
                                                      alt="AI-Generated Image by MidJourney"/>
-                                                <p className="fz-16 pra ttext__one fst-italic desc-image">“Ces images, générées par
+                                                <p className="fz-16 pra ttext__one fst-italic desc-image">“Ces images,
+                                                    générées par
                                                     MidJourney, démontrent le potentiel créatif de l'IA générative.
                                                     Elles illustrent comment des algorithmes peuvent produire des
                                                     visuels uniques, captivant mais aussi proche de la réalité, qui sont
@@ -130,7 +131,8 @@ const BlogDetails2 = () => {
                                                     prédictive pour anticiper les produits tendance, tandis que l'IA
                                                     générative produit automatiquement des annonces personnalisées.
                                                     <br/>
-                                                    Par exemple, <span className="fst-italic"> chez <span className="text-black">Carrefour</span>, 80% des
+                                                    Par exemple, <span className="fst-italic"> chez <span
+                                                    className="text-black">Carrefour</span>, 80% des
                                                     produits ajoutés dans les
                                                     paniers clients proviennent des recommandations personnalisées
                                                     d’algorithmes d’IA.</span>
@@ -145,9 +147,17 @@ const BlogDetails2 = () => {
                                         </h5>
                                         <p className="fz-16 pra ttext__one">
                                             <ul className="custom-list">
-                                                <li><span className="fw-bold text-black">Personnalisation à grande échelle :</span> Des campagnes ciblées pour un impact maximal.</li>
-                                                <li><span className="fw-bold text-black">Optimisation du ROI :</span> Réduction des dépenses inutiles et augmentation de la rentabilité.</li>
-                                                <li><span className="fw-bold text-black">Réactivité accrue :</span> Ajustement en temps réel des campagnes pour une efficacité optimale.</li>
+                                                <li><span className="fw-bold text-black">Personnalisation à grande échelle :</span> Des
+                                                    campagnes ciblées pour un impact maximal.
+                                                </li>
+                                                <li><span
+                                                    className="fw-bold text-black">Optimisation du ROI :</span> Réduction
+                                                    des dépenses inutiles et augmentation de la rentabilité.
+                                                </li>
+                                                <li><span
+                                                    className="fw-bold text-black">Réactivité accrue :</span> Ajustement
+                                                    en temps réel des campagnes pour une efficacité optimale.
+                                                </li>
                                             </ul>
                                         </p>
                                         <h5 className="base mb-30">
@@ -158,7 +168,7 @@ const BlogDetails2 = () => {
                                         </div>
 
                                         <p className="fz-16 pra ttext__one">
-                                        Bien que l’IA transforme la publicité digitale en offrant des possibilités
+                                            Bien que l’IA transforme la publicité digitale en offrant des possibilités
                                             sans précédent, elle ne peut remplacer la richesse et la profondeur de la
                                             touche humaine. Les émotions, la créativité intuitive et la compréhension
                                             contextuelle qu’apporte l’humain restent irremplaçables. Une approche
@@ -177,10 +187,55 @@ const BlogDetails2 = () => {
                                             ces technologies reste essentielle pour bâtir une relation de confiance avec
                                             les consommateurs.
                                         </p>
+
+                                        <h5 className="base mb-30">
+                                            Bibliographie
+                                        </h5>
+                                        <p className="fz-16 pra ttext__one">
+                                            <ul className="custom-list">
+                                                <li>
+                                                    Abdullahi, A. (2024, May 14). Ia prédictive et ia générative : Les
+                                                    deux piliers de l’intelligence artificielle. Geekflare France. <br/>
+                                                    <a href="https://geekflare.com/fr/predictive-ai-vs-generative-ai/"
+                                                       className="text-decoration-underline text-link mx-5">https://geekflare.com/fr/predictive-ai-vs-generative-ai/</a>
+                                                </li>
+                                                <li>
+                                                    ACHARD-TORTUL, M. (2024, May 30). Le défi des ia génératives :
+                                                    éthique et lutte contre Les Biais. DigitalCorner. <br/>
+                                                    <a href="https://www.digitalcorner-wavestone.com/2024/03/le-defi-des-ia-generatives-ethique-et-lutte-contre-les-biais/"
+                                                       className="text-decoration-underline text-link mx-5">https://www.digitalcorner-wavestone.com/2024/03/le-defi-des-ia-generatives-ethique-et-lutte-contre-les-biais/</a>
+                                                </li>
+                                                <li>
+                                                    Bpi France. (2025, January 13). Ia générative et ia prédictive :
+                                                    Transformation et innovation pour les entreprises. <br/>
+                                                    <a href="https://bigmedia.bpifrance.fr/nos-dossiers/ia-generative-et-ia-predictive-transformation-et-innovation-pour-les-entreprises"
+                                                       className="text-decoration-underline text-link mx-5">https://bigmedia.bpifrance.fr/nos-dossiers/ia-generative-et-ia-predictive-transformation-et-innovation-pour-les-entreprises</a>
+                                                </li>
+                                                <li>
+                                                    Clark, E. (2024, March 14). The ethical dilemma of AI in marketing:
+                                                    A slippery slope. Forbes. <br/>
+                                                    <a href="https://www.forbes.com/sites/elijahclark/2024/03/14/the-ethical-dilemma-of-ai-in-marketing-a-slippery-slope/#:~:text=Ultimately%2C%20whether%20AI%20can%20be,the%20erosion%20of%20human%20agency."
+                                                       className="text-decoration-underline text-link mx-5">https://www.forbes.com/sites/elijahclark/2024/03/14/the-ethical-dilemma-of-ai-in-marketing-a-slippery-slope/</a>
+                                                </li>
+                                                <li>
+                                                    Delsol, E. (2024, December 2). Carrefour Place L’ia au Rayon des
+                                                    Projets Stratgiques. Carrefour place l’IA au rayon des projets
+                                                    stratégiques. <br/>
+                                                    <a href="https://www.cio-online.com/actualites/lire-carrefour-place-l-ia-au-rayon-des-projets-strategiques-16016.html"
+                                                       className="text-decoration-underline text-link mx-5">https://www.cio-online.com/actualites/lire-carrefour-place-l-ia-au-rayon-des-projets-strategiques-16016.html</a>
+                                                </li>
+                                                <li>
+                                                    O’Brien, C. (2024, December 6). How AI is Changing Digital
+                                                    Marketing. Digital Marketing Institute. <br/>
+                                                    <a href="https://digitalmarketinginstitute.com/blog/how-ai-is-changing-digital-marketing"
+                                                       className="text-decoration-underline text-link mx-5">https://digitalmarketinginstitute.com/blog/how-ai-is-changing-digital-marketing</a>
+                                                </li>
+                                            </ul>
+                                        </p>
                                     </div>
 
                                     <div className="float-end">
-                                    <LinkedinShareButton
+                                        <LinkedinShareButton
                                             url="https://www.actdna.com/#/blog/ia-moteur-de-la-nouvelle-revolution-industrielle">
                                             <LinkedinIcon/>
                                         </LinkedinShareButton>
